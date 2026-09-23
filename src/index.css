@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Tamil:wght@100..800&family=Geist:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@import "tailwindcss";
+/* @import "tailwindcss/base.css" layer(base);
+@import "tailwindcss/components.css" layer(components);
+@import "tailwindcss/utilities.css" layer(utilities); */
+
+@theme {
+   --purple-color : #808CFD;
+   --light-purple-color : #E9ECFF;
+   --font-anek-tamil: "Anek Tamil", sans-serif;
+   --font-geist : "Geist", sans-serif;
+   --font-instrunment-sans : "Instrument Sans", sans-serif;
+}
+
+/* :root{
+   --purple-color : #808CFD;
+   --light-purple-color : #E9ECFF;
+} */
+
+.bg-purple-color{
+   background-color: var(--purple-color);
+}
+.bg-light-purple-color{
+   background-color: var(--light-purple-color);
+}
+.text-purple-color{
+   color: var(--purple-color);
+}
+
+
+.custom-container{
+   max-width: 1440px;
+   /* width: 100%; */
+   margin: 0 auto;
+   padding: 0 16px;
+}
